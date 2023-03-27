@@ -1,0 +1,97 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.custom-btn{
+    background-color: #252525;
+    transition: 0.4s;
+}
+.custom-btn:hover{
+    background-color: #414548;
+}
+/* navbar part start */
+.nav-item a{
+    color: #3c3636dc;
+    font-size: 1.25rem;
+    position: relative;
+}
+.nav-item a::after{
+    position: absolute;
+    background: #F5DF4E;
+    content: ' ';
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.4s;
+}
+.nav-item a:hover::after{
+    width: 100%;
+}
+/* navbar part end */
+
+/* banner part start */
+.banner-section{
+    background-color: #F5DF4E;
+}
+.banner-content h2{
+    font-size: 1.875rem;
+}
+.banner-content h1{
+    font-size: 3.25rem;
+    font-weight: 600;
+}
+
+/* banner part end */
+
+
+/* break points */
+@media (min-width: 500px) {
+    .banner-content h2{
+        font-size: 2.875rem;
+    }
+    .banner-content h1{
+        font-size: 5.25rem;
+        font-weight: 600;
+    }
+}
+@media (min-width: 768px) {
+    .banner-content h2{
+        font-size: 3.5rem;
+    }
+    .banner-content h1{
+        font-size: 7rem;
+        font-weight: 600;
+    }
+}
+@media (min-width: 992px) {
+    .banner-content{
+        width: 70%;
+    }
+    .banner-content h2{
+        font-size: 2rem;
+    }
+    .banner-content h1{
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+    .banner-img{
+        width: 30%;
+    }
+    .banner-img img{
+        width: 80%;
+    }
+}
+@media (min-width: 1200px) {
+    .banner-content h2{
+        font-size: 3rem;
+    }
+    .banner-content h1{
+        font-size: 5.5rem;
+        font-weight: 600;
+    }
+}
