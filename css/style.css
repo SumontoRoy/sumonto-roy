@@ -38,9 +38,36 @@ a{
 
 /* banner part end */
 
+/* about part start */
+.about-heading h6{
+    display: inline-block;
+    background-color: #F5DF4E;
+}
+.about-heading h2{
+    font-size: 2.5rem;
+}
+.about-content-details h3{
+    font-size: 2.5rem;
+}
+.about-content-details p{
+    text-align: justify;
+}
+.about-details h6{
+    color: #6C757D;
+}
+/* about part end */
+
 
 /* break points */
-@media (min-width: 500px) {
+@media (max-width: 500px) {
+    .banner-img img{
+        width: 70%;
+    }
+    .about-content-details h3{
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) {
     .banner-content h2{
         font-size: 2.875rem;
     }
@@ -83,5 +110,5 @@ a{
     .banner-content h1{
         font-size: 5.5rem;
         font-weight: 600;
-    }
+    }  
 }
