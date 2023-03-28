@@ -39,7 +39,7 @@ a{
 /* banner part end */
 
 /* about part start */
-.about-heading h6{
+.about-heading p{
     display: inline-block;
     background-color: #F5DF4E;
 }
@@ -56,6 +56,44 @@ a{
     color: #6C757D;
 }
 /* about part end */
+
+/* help part start */
+.help-section{
+    background-color: #F8F9FA;
+}
+.help-heading p{
+    display: inline-block;
+    background-color: #F5DF4E;
+}
+.help-item i{
+    font-size: 60px;
+    color: #F5DF4E;
+}
+.help-item p{
+    color: #6C757D;
+    text-align: justify;
+}
+/* help part end */
+
+/* resume part start */
+.resume-heading p{
+    display: inline-block;
+    background-color: #F5DF4E;
+}
+.education-content img{
+    height: 200px;
+}
+.education-content h6{
+    color: #6C757D;;
+}
+.education-content p{
+    text-align: justify;
+}
+.experience-content img{
+    height: 200px;
+    width: 280px;
+}
+/* resume part end */
 
 
 /* break points */
