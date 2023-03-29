@@ -131,6 +131,14 @@ a {
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
 }
+.skills-btn a{
+    border: 2px solid #252525;
+    transition: 0.4s;
+}
+.skills-btn a:hover{
+    background-color: #252525;
+    color: #ffffff;
+}
 /* skills part end */
 
 
