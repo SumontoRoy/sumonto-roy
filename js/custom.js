@@ -4,3 +4,5 @@ var typed = new Typed(".typing-js", {
     backSpeed: 150,
     loop: true
 })
+
+  

@@ -1,37 +1,44 @@
-
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.custom-btn{
+
+.custom-btn {
     background-color: #252525;
     transition: 0.4s;
 }
-.custom-btn:hover{
+
+.custom-btn:hover {
     background-color: #414548;
 }
+
 /* navbar part start */
-.nav-item a{
+.nav-item a {
     color: #3c3636dc;
     font-size: 1.25rem;
     transition: 0.4s;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: #F5DF4E;
 }
+
 /* navbar part end */
 
 /* banner part start */
-.banner-section{
+.banner-section {
     background-color: #F5DF4E;
 }
-.banner-content h2{
+
+.banner-content h2 {
     font-size: 1.875rem;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 3.25rem;
     font-weight: 600;
 }
@@ -39,114 +46,147 @@ a{
 /* banner part end */
 
 /* about part start */
-.about-heading p{
+.about-heading p {
     display: inline-block;
     background-color: #F5DF4E;
 }
-.about-heading h2{
+
+.about-heading h2 {
     font-size: 2.5rem;
 }
-.about-content-details h3{
+
+.about-content-details h3 {
     font-size: 2.5rem;
 }
-.about-content-details p{
+
+.about-content-details p {
     text-align: justify;
 }
-.about-details h6{
+
+.about-details h6 {
     color: #6C757D;
 }
+
 /* about part end */
 
 /* help part start */
-.help-section{
+.help-section {
     background-color: #F8F9FA;
 }
-.help-heading p{
+
+.help-heading p {
     display: inline-block;
     background-color: #F5DF4E;
 }
-.help-item i{
+
+.help-item i {
     font-size: 60px;
     color: #F5DF4E;
 }
-.help-item p{
+
+.help-item p {
     color: #6C757D;
     text-align: justify;
 }
+
 /* help part end */
 
 /* resume part start */
-.resume-heading p{
+.resume-heading p {
     display: inline-block;
     background-color: #F5DF4E;
 }
-.education-content img{
+
+.education-content img {
     height: 200px;
 }
-.education-content h6{
-    color: #6C757D;;
+
+.education-content h6 {
+    color: #6C757D;
+    ;
 }
-.education-content p{
+
+.education-content p {
     text-align: justify;
 }
-.experience-content img{
+
+.experience-content img {
     height: 200px;
     width: 280px;
 }
+
 /* resume part end */
+
+/* skills part start */
+.skills-progress-bar{
+    background-color: #F5DF4E;
+}
+/* skills part end */
 
 
 /* break points */
 @media (max-width: 500px) {
-    .banner-img img{
+    .banner-img img {
         width: 70%;
     }
-    .about-content-details h3{
+
+    .about-content-details h3 {
         font-size: 8vw;
     }
 }
+
 @media (min-width: 501px) {
-    .banner-content h2{
+    .banner-content h2 {
         font-size: 2.875rem;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 5.25rem;
         font-weight: 600;
     }
 }
+
 @media (min-width: 768px) {
-    .banner-content h2{
+    .banner-content h2 {
         font-size: 3.5rem;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 7rem;
         font-weight: 600;
     }
 }
+
 @media (min-width: 992px) {
-    .banner-content{
+    .banner-content {
         width: 70%;
     }
-    .banner-content h2{
+
+    .banner-content h2 {
         font-size: 2rem;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 4.5rem;
         font-weight: 600;
     }
-    .banner-img{
+
+    .banner-img {
         width: 30%;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 80%;
     }
 }
+
 @media (min-width: 1200px) {
-    .banner-content h2{
+    .banner-content h2 {
         font-size: 3rem;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 5.5rem;
         font-weight: 600;
-    }  
+    }
 }
