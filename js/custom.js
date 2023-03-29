@@ -5,4 +5,5 @@ var typed = new Typed(".typing-js", {
     loop: true
 })
 
+
   
