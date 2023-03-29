@@ -141,6 +141,32 @@ a {
 }
 /* skills part end */
 
+/* interest part start */
+.interest-section{
+    background-image: url(../images/interest3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: #6c757d33;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+.interest-content h2{
+    color: #ffffff;
+    font-size: 40px;
+}
+.interest-content a{
+    background-color: #F5DF4E;
+}
+.interest-content a:hover{
+    background-color: #F5DF4E;
+}
+/* interest part end */
+
 
 /* break points */
 @media (max-width: 500px) {
