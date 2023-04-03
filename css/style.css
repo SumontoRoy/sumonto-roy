@@ -54,10 +54,14 @@ a {
 .banner-section .custom-btn{
     min-width: 220px;
 }
-.banner-modal{
+.modal-color{
     background-color: #F5DF4E;
 }
 .modal-btn{
+    background-color: #252525;
+    color: #ffffff;
+}
+.modal-btn:hover{
     background-color: #252525;
     color: #ffffff;
 }
@@ -196,6 +200,16 @@ a {
 
 .interest-content a:hover {
     background-color: #F5DF4E;
+}
+.interest-section .modal-title{
+    color: #212529;
+}
+.interest-section .modal-body{
+    color: #111418;
+}
+.interest-section .modal-body a{
+    text-decoration: underline;
+    background-color: #ffffff;
 }
 
 /* interest part end */
