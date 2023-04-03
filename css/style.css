@@ -51,7 +51,9 @@ a {
     font-size: 3.25rem;
     font-weight: 600;
 }
-
+.banner-section .custom-btn{
+    min-width: 220px;
+}
 /* banner part end */
 
 /* about part start */
