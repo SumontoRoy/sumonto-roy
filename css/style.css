@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -17,6 +21,10 @@ a {
 }
 
 /* navbar part start */
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 2px solid #53525257;
+}
 .nav-item a {
     color: #3c3636dc;
     font-size: 1.25rem;
@@ -32,6 +40,7 @@ a {
 /* banner part start */
 .banner-section {
     background-color: #F5DF4E;
+    padding: 8.75rem 0rem 4.375rem;
 }
 
 .banner-content h2 {
@@ -118,119 +127,150 @@ a {
 /* resume part end */
 
 /* skills part start */
-.skills-progress-bar{
+.skills-progress-bar {
     background-color: #F5DF4E;
 }
+
 .progress .progress-bar {
     animation-name: animateBar;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1.8s;
 }
+
 @keyframes animateBar {
-    0% {transform: translateX(-100%);}
-    100% {transform: translateX(0);}
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
-.skills-btn a{
+
+.skills-btn a {
     border: 2px solid #252525;
     transition: 0.4s;
 }
-.skills-btn a:hover{
+
+.skills-btn a:hover {
     background-color: #252525;
     color: #ffffff;
 }
+
 /* skills part end */
 
 /* interest part start */
-.interest-section{
+.interest-section {
     background-image: url(../images/interest3.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-.overlay{
+
+.overlay {
     background-color: #6c757d33;
     z-index: 1;
     height: 100%;
     width: 100%;
     color: #ffffff;
 }
-.interest-content h2{
+
+.interest-content h2 {
     color: #ffffff;
     font-size: 40px;
 }
-.interest-content a{
+
+.interest-content a {
     background-color: #F5DF4E;
 }
-.interest-content a:hover{
+
+.interest-content a:hover {
     background-color: #F5DF4E;
 }
+
 /* interest part end */
 
 /* contact part start */
-.contact-section{
+.contact-section {
     background-color: #F5DF4E;
 }
+
 /* #1E3050 */
-.contact-content>p{
+.contact-content>p {
     text-align: justify;
 }
-.contact-content i{
+
+.contact-content i {
     font-size: 2rem;
     transition: 0.4s;
 }
+
 /* .contact-content .facebook{
     transition: 0.4s;
 } */
-.contact-content .facebook:hover{
+.contact-content .facebook:hover {
     color: #1877F2;
     transform: scale(1.3);
 }
-.contact-content .instagram:hover{
+
+.contact-content .instagram:hover {
     color: #E4405F;
     transform: scale(1.3);
 }
-.contact-content .linkedin:hover{
+
+.contact-content .linkedin:hover {
     color: #0A66C2;
     transform: scale(1.3);
 }
-.contact-content .github:hover{
+
+.contact-content .github:hover {
     color: #161414;
     transform: scale(1.3);
 }
-.contact-form input{
+
+.contact-form input {
     background-color: transparent;
     border-bottom: 1px solid #21252993 !important;
 }
-.contact-form input:focus{
-    background-color: #F5DF4E; 
+
+.contact-form input:focus {
+    background-color: #F5DF4E;
     box-shadow: none;
 }
-.contact-form textarea{
+
+.contact-form textarea {
     background-color: #F5DF4E;
     border-bottom: 1px solid #21252993 !important;
 }
-.contact-form textarea:focus{
-    background-color: #F5DF4E; 
+
+.contact-form textarea:focus {
+    background-color: #F5DF4E;
     box-shadow: none;
 }
 
 /* contact part end */
 
 /* footer section start */
-footer{
+footer {
     background-color: #111418;
 }
-footer p{
+
+footer p {
     color: #ffffffa5;
 }
-footer span{
+
+footer span {
     color: #F5DF4E;
 }
+
 /* footer section end */
 
 /* break points */
 @media (max-width: 500px) {
+    .banner-section {
+        padding: 7rem 0rem 3.5rem;
+    }
     .banner-img img {
         width: 70%;
     }
