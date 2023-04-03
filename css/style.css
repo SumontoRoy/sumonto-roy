@@ -57,6 +57,10 @@ a {
 .banner-modal{
     background-color: #F5DF4E;
 }
+.modal-btn{
+    background-color: #252525;
+    color: #ffffff;
+}
 /* banner part end */
 
 /* about part start */
