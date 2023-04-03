@@ -224,9 +224,13 @@ a {
     text-align: justify;
 }
 
-.contact-content i {
+.contact-content a {
     font-size: 2rem;
-    transition: 0.4s;
+    color: #212529;
+    transition: 0.6s;
+}
+.contact-content i {
+    transition: 0.6s;
 }
 
 /* .contact-content .facebook{
@@ -273,6 +277,15 @@ a {
 }
 .modal-icon{
     font-size: 25px;
+}
+.modal-icon .fa-facebook{
+    color: #1877F2;
+}
+.modal-icon .fa-instagram{
+    color: #E4405F;
+}
+.modal-icon .fa-linkedin-in{
+    color: #0A66C2;
 }
 /* contact part end */
 
