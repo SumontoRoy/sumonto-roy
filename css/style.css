@@ -271,7 +271,9 @@ a {
     background-color: #F5DF4E;
     box-shadow: none;
 }
-
+.modal-icon{
+    font-size: 25px;
+}
 /* contact part end */
 
 /* footer section start */
