@@ -54,6 +54,9 @@ a {
 .banner-section .custom-btn{
     min-width: 220px;
 }
+.banner-modal{
+    background-color: #F5DF4E;
+}
 /* banner part end */
 
 /* about part start */
