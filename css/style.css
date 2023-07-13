@@ -136,6 +136,9 @@ a {
     height: 220px;
     width: 280px;
 }
+.experience-content p {
+    text-align: justify;
+}
 
 /* resume part end */
 
